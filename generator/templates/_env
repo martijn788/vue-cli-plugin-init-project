@@ -1,0 +1,4 @@
+VUE_APP_API_URL=https://test-cr.directetoegang.nl/api
+VUE_APP_LOCALE=nl
+VUE_APP_BASE_URL=
+VUE_APP_VERSION=dev

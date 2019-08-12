@@ -1,0 +1,21 @@
+{
+  "name": "@laura-wert/vue-cli-plugin-init-project",
+  "version": "0.0.0",
+  "description": "vue cli plugin for a laura-wert project",
+  "productName": "",
+  "license": "MIT",
+  "author": " ",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laura-wert/vue-cli-plugin-init-project.git"
+  },
+  "scripts": {
+    "release": "yarn git-clean-status && yarn publish"
+  },
+  "devDependencies": {
+    "@laura-wert/git-clean-status": "^1.0.0"
+  }
+}
