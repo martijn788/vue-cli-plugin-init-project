@@ -5,6 +5,7 @@
   "productName": "",
   "license": "MIT",
   "author": " ",
+  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -17,5 +18,10 @@
   },
   "devDependencies": {
     "@laura-wert/git-clean-status": "^1.0.0"
-  }
+  },
+  "files": [
+    "generator/",
+    "package.json",
+    "index.js"
+  ]
 }
