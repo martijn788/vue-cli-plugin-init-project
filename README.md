@@ -1,7 +1,8 @@
 vue-cli-plugin-init-project
 # install
-- add the following json to your'e ~/.vuerc file
+- add the following json to your ~/.vuerc file within the presets 
 ```json
+"presets": {
 "lauraWert": {
   "useConfigFiles": true,
   "plugins": {
@@ -24,6 +25,7 @@ vue-cli-plugin-init-project
   "routerHistoryMode": true,
   "vuex": true,
   "cssPreprocessor": "stylus"
+}
 }
 ```
 - make a new vue project with the lauraWert preset
