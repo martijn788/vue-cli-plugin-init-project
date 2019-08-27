@@ -3,29 +3,29 @@ vue-cli-plugin-init-project
 - add the following json to your ~/.vuerc file within the presets 
 ```json
 "presets": {
-"lauraWert": {
-  "useConfigFiles": true,
-  "plugins": {
-    "@vue/cli-plugin-babel": {},
-    "@vue/cli-plugin-typescript": {
-      "classComponent": true,
-      "useTsWithBabel": true
+  "lauraWert": {
+    "useConfigFiles": true,
+    "plugins": {
+     "@vue/cli-plugin-babel": {},
+     "@vue/cli-plugin-typescript": {
+       "classComponent": true,
+       "useTsWithBabel": true
+     },
+     "@vue/cli-plugin-eslint": {
+       "config": "standard",
+       "lintOn": [
+         "save",
+         "commit"
+       ]
+     },
+     "@vue/cli-plugin-unit-mocha": {},
+     "@vue/cli-plugin-e2e-cypress": {}
     },
-    "@vue/cli-plugin-eslint": {
-      "config": "standard",
-      "lintOn": [
-        "save",
-        "commit"
-      ]
-    },
-    "@vue/cli-plugin-unit-mocha": {},
-    "@vue/cli-plugin-e2e-cypress": {}
-  },
-  "router": true,
-  "routerHistoryMode": true,
-  "vuex": true,
-  "cssPreprocessor": "stylus"
-}
+    "router": true,
+    "routerHistoryMode": true,
+    "vuex": true,
+    "cssPreprocessor": "stylus"
+  }
 }
 ```
 - make a new vue project with the lauraWert preset
