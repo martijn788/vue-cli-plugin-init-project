@@ -1,6 +1,6 @@
 vue-cli-plugin-init-project
 # install
-- add the following json to your'e ~/.vuerc file
+- add the following json to your'e ~/.vuerc file as a preset
 ```json
 "lauraWert": {
   "useConfigFiles": true,
